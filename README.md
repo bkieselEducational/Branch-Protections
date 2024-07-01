@@ -20,8 +20,8 @@ On the page you have now navigated to, the real action begins! Let's make a name
 In our final step (further down the same page as above... in a galaxy far far away), we must now enable the feature that requires a pull-request and also set the number of collaborators whom must approve of the pull-request. 1 collaborator is a satisfactory minimum here.
 
 <img width="1375" alt="mando_pull" src="https://github.com/bkieselEducational/Branch-Protections/assets/131717897/5fb30d30-2725-4d53-8af0-b38ae4efad26">
-##
 
+##
 # Pull Request Approval
 Using the navbar of your Github repo, you will need to navigate to the Pull requests tab if there is not a button present on the main branch for this purpose. 
 
