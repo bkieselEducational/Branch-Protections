@@ -63,6 +63,8 @@ Theoretically, things should look pretty green at this point. If so, you are rea
 ## 4. Confirmation
 You'll just need to confirm the changes as a final step.
 
+<img width="1618" alt="merge_confirm" src="https://github.com/bkieselEducational/Branch-Protections/assets/131717897/6d6a38c0-0d55-49d9-a0f1-0a814250eba4">
+
 ##
 # Cleaning up some loose ends
 So at this point, everything should be merged into main and it's smooooooth sailing!! ALMOST!!
@@ -83,6 +85,4 @@ git pull origin main
 ```git
 git push
 ```
-
-<img width="1618" alt="merge_confirm" src="https://github.com/bkieselEducational/Branch-Protections/assets/131717897/6d6a38c0-0d55-49d9-a0f1-0a814250eba4">
 
