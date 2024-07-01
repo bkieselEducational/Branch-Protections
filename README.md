@@ -17,6 +17,6 @@ On the page you have now navigated to, the real action begins! Let's make a name
 <img width="1208" alt="name_active_target" src="https://github.com/bkieselEducational/Branch-Protections/assets/131717897/7f8d2727-f79f-4013-961f-e6cba975aa4a">
 
 ## 4. Making a Pull-Request Mandatory
-In our final step, we must now enable the feature that requires a pull-request and also set the number of collaborators whom must approve of the pull-request. 1 collaborator is a satisfactory minimum here.
+In our final step (further down the same page as above... in a galaxy far far away), we must now enable the feature that requires a pull-request and also set the number of collaborators whom must approve of the pull-request. 1 collaborator is a satisfactory minimum here.
 
 <img width="1375" alt="mando_pull" src="https://github.com/bkieselEducational/Branch-Protections/assets/131717897/5fb30d30-2725-4d53-8af0-b38ae4efad26">
