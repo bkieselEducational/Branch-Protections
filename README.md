@@ -8,8 +8,13 @@ First we must navigate to the Settings Tab for our concerened repo and then clic
 
 <img width="1180" alt="nav_to_branches" src="https://github.com/bkieselEducational/Branch-Protections/assets/131717897/ab8f895c-26a0-4488-804c-9661a417a00f">
 
+### Create a Ruleste for your branch
+
+<img width="1170" alt="create_ruleset" src="https://github.com/bkieselEducational/Branch-Protections/assets/131717897/12a40b88-d09b-48db-af4a-68c8e2d47a34">
 
 
 
 
+
+## Another prompt
 <img width="1208" alt="name_active_target" src="https://github.com/bkieselEducational/Branch-Protections/assets/131717897/7f8d2727-f79f-4013-961f-e6cba975aa4a">
