@@ -63,5 +63,26 @@ Theoretically, things should look pretty green at this point. If so, you are rea
 ## 4. Confirmation
 You'll just need to confirm the changes as a final step.
 
+##
+# Cleaning up some loose ends
+So at this point, everything should be merged into main and it's smooooooth sailing!! ALMOST!!
+One thing that is not super intuitive at this point is that while main now has all of your changes, your feature branch will now report itself as being a commit behind main.
+While the content of the branches should be identical, the commit histories have now diverged! We can fix this easily and should do it to keep things consistent!
+
+### 1. Checkout your feature branch locally
+```git
+git checkout my_recently_merged_feature_branch
+```
+
+### 2. Pull the commit history from main into your branch
+```git
+git pull origin main
+```
+
+### 3. Push those commits up to the remote branch (no need to commit)
+```git
+git push
+```
+
 <img width="1618" alt="merge_confirm" src="https://github.com/bkieselEducational/Branch-Protections/assets/131717897/6d6a38c0-0d55-49d9-a0f1-0a814250eba4">
 
