@@ -22,6 +22,26 @@ In our final step (further down the same page as above... in a galaxy far far aw
 <img width="1375" alt="mando_pull" src="https://github.com/bkieselEducational/Branch-Protections/assets/131717897/5fb30d30-2725-4d53-8af0-b38ae4efad26">
 
 ##
+# Create a Pull Request in the Console
+So if you have made changes to your feature branch (and commited them to the remote repo) and are ready to merge them into main, you can create a Pull request in the console.
+
+## 1. Navigate to the Pull requests Tab
+
+<img width="1858" alt="getting_started" src="https://github.com/bkieselEducational/Branch-Protections/assets/131717897/50d61780-d485-412e-a29b-f9140739b211">
+
+## 2. Select a branch that differes from main
+
+<img width="1605" alt="select_a_branch" src="https://github.com/bkieselEducational/Branch-Protections/assets/131717897/cc6112bd-8517-4385-b1ba-275e708e9c2c">
+
+## 3. Finaze the creation (kind of)
+
+<img width="1798" alt="finalize" src="https://github.com/bkieselEducational/Branch-Protections/assets/131717897/18dd645f-0a4f-4ec1-8228-8fe58153e0c6">
+
+## 4. One last time (github REALLY likes you to be sure about things...)
+
+<img width="1552" alt="last" src="https://github.com/bkieselEducational/Branch-Protections/assets/131717897/e39f7b0d-8666-4ad4-ace0-565fa1627c23">
+
+##
 # Pull Request Approval
 Using the navbar of your Github repo, you will need to navigate to the Pull requests tab if there is not a button present on the main branch for this purpose. 
 
@@ -44,3 +64,24 @@ Theoretically, things should look pretty green at this point. If so, you are rea
 You'll just need to confirm the changes as a final step.
 
 <img width="1618" alt="merge_confirm" src="https://github.com/bkieselEducational/Branch-Protections/assets/131717897/6d6a38c0-0d55-49d9-a0f1-0a814250eba4">
+
+##
+# Cleaning up some loose ends
+So at this point, everything should be merged into main and it's smooooooth sailing!! ALMOST!!
+One thing that is not super intuitive at this point is that while main now has all of your changes, your feature branch will now report itself as being a commit behind main.
+While the content of the branches should be identical, the commit histories have now diverged! We can fix this easily and should do it to keep things consistent!
+
+### 1. Checkout your feature branch locally
+```git
+git checkout my_recently_merged_feature_branch
+```
+
+### 2. Pull the commit history from main into your branch
+```git
+git pull origin main
+```
+
+### 3. Push those commits up to the remote branch (no need to commit)
+```git
+git push
+```
