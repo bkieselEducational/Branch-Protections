@@ -20,3 +20,27 @@ On the page you have now navigated to, the real action begins! Let's make a name
 In our final step (further down the same page as above... in a galaxy far far away), we must now enable the feature that requires a pull-request and also set the number of collaborators whom must approve of the pull-request. 1 collaborator is a satisfactory minimum here.
 
 <img width="1375" alt="mando_pull" src="https://github.com/bkieselEducational/Branch-Protections/assets/131717897/5fb30d30-2725-4d53-8af0-b38ae4efad26">
+##
+
+# Pull Request Approval
+Using the navbar of your Github repo, you will need to navigate to the Pull requests tab if there is not a button present on the main branch for this purpose. 
+
+## 1. Create an approval review
+Click on the button boxed in below. This shall take you to where you can review the code changes and add your review.
+
+<img width="1741" alt="needs_approval" src="https://github.com/bkieselEducational/Branch-Protections/assets/131717897/0665224a-d589-4dce-9728-fb0b77203633">
+
+## 2. Create Review, Give Approval
+On the following screen, after examining the code, press the Review changes dropdown. note that a collaborator cannot approve their own pull request.
+
+<img width="1859" alt="giving_approval" src="https://github.com/bkieselEducational/Branch-Protections/assets/131717897/376f89e9-b4c1-4efa-9927-e98728b217d0">
+
+## 3. Time to Merge
+Theoretically, things should look pretty green at this point. If so, you are ready!
+
+<img width="1657" alt="set_to_merge" src="https://github.com/bkieselEducational/Branch-Protections/assets/131717897/a53d39b6-c89f-4c62-a2cc-bd5d149ac6b8">
+
+## 4. Confirmation
+You'll just need to confirm the changes as a final step.
+
+<img width="1618" alt="merge_confirm" src="https://github.com/bkieselEducational/Branch-Protections/assets/131717897/6d6a38c0-0d55-49d9-a0f1-0a814250eba4">
