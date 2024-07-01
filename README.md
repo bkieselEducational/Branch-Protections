@@ -29,7 +29,7 @@ So if you have made changes to your feature branch (and commited them to the rem
 
 <img width="1858" alt="getting_started" src="https://github.com/bkieselEducational/Branch-Protections/assets/131717897/50d61780-d485-412e-a29b-f9140739b211">
 
-## 2. Select a branch that differes from main
+## 2. Select a branch that differs from main
 
 <img width="1605" alt="select_a_branch" src="https://github.com/bkieselEducational/Branch-Protections/assets/131717897/cc6112bd-8517-4385-b1ba-275e708e9c2c">
 
